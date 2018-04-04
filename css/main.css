@@ -1,0 +1,92 @@
+/* NAVIGATION */
+
+
+.navbar {
+
+    background: transparent;
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    transition: all ease .5s;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    border: none;
+    padding: 0 10px 0 10px;
+}
+
+.navbar a {
+
+    color: #000000 !important;
+    opacity: 0.7;
+}
+
+
+.navbar a:hover {
+
+    opacity: 1;
+    background-color: transparent !important;
+
+}
+
+.navbar li {
+
+    list-style: none;
+    display: inline-block;
+
+}
+
+/* HEADER */
+
+.header {
+
+
+
+}
+
+.header .about-btn button {
+
+      padding: 0 30px;
+      color: #fff;
+      text-align: center;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 38px;
+      letter-spacing: .1rem;
+      text-transform: uppercase;
+      text-decoration: none;
+      white-space: nowrap;
+      background-color: #000000; /*change this color to what you think works best*/
+      border-radius: 4px;
+      border: 1px solid #ffffff;
+      cursor: pointer;
+      position: absolute;
+      /*change these two to what values you think looks best - preferably centered*/
+      top: 130px;
+      left: 650px;
+
+}
+
+.header .about-btn button:hover {
+
+  background-color: #00FFFF;
+  border: 1px solid #FFFFFF;
+
+}
+
+/* DIASPORA */
+
+.diaspora {
+
+
+
+}
+
+/* ABOUT HEADER  */
+
+.about-header {
+
+
+
+}
