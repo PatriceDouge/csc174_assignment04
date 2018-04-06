@@ -1,3 +1,7 @@
+ body { 
+  background: #ffff99 !important; 
+}
+
 /* NAVIGATION */
 
 
@@ -13,7 +17,12 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     border: none;
-    padding: 0 10px 0 10px;
+    padding: 0 100px 0 10px;
+
+}
+
+.navbar-brand {
+  font-size: 50px;
 }
 
 .navbar a {
@@ -41,7 +50,7 @@
 
 .header {
 
-
+text-align: center;
 
 }
 
@@ -57,14 +66,15 @@
       text-transform: uppercase;
       text-decoration: none;
       white-space: nowrap;
-      background-color: #000000; /*change this color to what you think works best*/
+      background-color: blue; /*change this color to what you think works best*/
       border-radius: 4px;
       border: 1px solid #ffffff;
       cursor: pointer;
       position: absolute;
       /*change these two to what values you think looks best - preferably centered*/
-      top: 130px;
+      top: 135px;
       left: 650px;
+      margin-left: 20px;
 
 }
 
@@ -72,14 +82,16 @@
 
   background-color: #00FFFF;
   border: 1px solid #FFFFFF;
-
 }
 
 /* DIASPORA */
 
 .diaspora {
 
-
+border: 2px solid blue;
+ background-color: #ccccff;
+margin-left: 350px;
+margin-right: 350px;
 
 }
 
@@ -87,6 +99,37 @@
 
 .about-header {
 
+text-align: center;
 
+}
 
+.fiyin {
+  border: 2px solid blue;
+  background-color: #ccccff;
+margin-left: 350px;
+margin-right: 350px;
+margin-bottom: 25px;
+}
+
+.ola {
+   border: 2px solid blue;
+   background-color: #ccccff;
+margin-left: 350px;
+margin-right: 350px;
+margin-bottom: 25px;
+}
+
+.prosper {
+   border: 2px solid blue;
+   background-color: #ccccff;
+margin-left: 350px;
+margin-right: 350px;
+margin-bottom: 25px;
+}
+
+.patrice {
+   border: 2px solid blue;
+   background-color: #ccccff;
+margin-left: 350px;
+margin-right: 350px;
 }
